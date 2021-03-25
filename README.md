@@ -20,4 +20,4 @@ Credit: [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/sy
     ```
 
 ### Preview
-![resume](https://user-images.githubusercontent.com/50312506/109926826-5f756a80-7cfe-11eb-9c87-0e5ba08d0826.png)
+![resume](https://user-images.githubusercontent.com/50312506/112407663-76cdd380-8d51-11eb-8bd3-0fbd0fa98f8a.png)

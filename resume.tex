@@ -7,7 +7,7 @@
 
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{CJKutf8}
+\usepackage{xeCJK}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -20,7 +20,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{fontawesome5}
-\input{glyphtounicode}
+% \input{glyphtounicode}
 
 
 %----------FONT OPTIONS----------
@@ -60,7 +60,7 @@
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
+% \pdfgentounicode=1
 
 %-------------------------
 % Custom commands
@@ -106,7 +106,6 @@
 
 
 \begin{document}
-\begin{CJK}{UTF8}{gbsn}
 
 %----------HEADING----------
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -115,7 +114,7 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
+    \textbf{\Huge \scshape 张~三} \\ \vspace{3pt}
     \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$
     \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
     \href{https://github.com/...}{\underline{github.com/jake}}
@@ -123,7 +122,7 @@
 
 
 %-----------EDUCATION-----------
-\section{Education}
+\section{教育背景}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Southwestern University}{Georgetown, TX}
@@ -135,7 +134,7 @@
 
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{过往经历}
   \resumeSubHeadingListStart
 
     \resumeSubheading
@@ -182,7 +181,7 @@
 
 
 %-----------PROJECTS-----------
-\section{Projects}
+\section{项目实践}
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
@@ -206,7 +205,7 @@
 
 %
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{基本技能}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
@@ -218,5 +217,4 @@
 
 
 %-------------------------------------------
-\end{CJK}
 \end{document}
