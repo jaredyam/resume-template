@@ -2,6 +2,8 @@ Credit: [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/sy
 
 ### Change Logs
 
+- 2021-03-25: Supports fully CJK languages usage in the new branch `CJK-languages` (⚠️ `xelatex` compiler needed).
+
 - 2021-03-08: Supports package `fontawesome5` for adding basic icons. Checking out all available icons here: [Icons available with the package fontawesome5](http://www.ipgp.fr/~moguilny/LaTeX/fontawesome5Icons.pdf).
 
     __Basic usage__:
